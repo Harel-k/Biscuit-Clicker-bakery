@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+  background-color: antiquewhite;
+}
+#clickerButton {
+    font-size: 36px;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+#counter {
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+#buildingContainer {
+    width: 33.33%;
+    margin-left: 33.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.building {
+    flex: 1;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.building h2 {
+    margin-top: 0;
+}
+
+.building p {
+    margin-bottom: 0;
+}
+
+#goldenBiscuit {
+    position: absolute;
+    top: 23pc;
+    right: 1132px;
+    padding: 10px;
+    background-color: gold;
+    display: none;
+}
+#buyCursorsButton {
+    background-color: beige;
+    display: flexbox;
+    border-color: blanchedalmond;
+}
+#buyGrandmasButton {
+    background-color: beige;
+    display: flexbox;
+    border-color: blanchedalmond;
+}
+#clickButton {
+    /* background-color: burlywood;
+    border-color: coral; */
+    
+}
